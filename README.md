@@ -3,7 +3,7 @@ Modified from https://github.com/vinodc/kloudless-c-sharp-demo
 
 ## How to use
 - Register a Kloudless account
-- Create a App
+- Create a new Kloudless app in https://developers.kloudless.com
 - Open web.config in Sample Solution folder
-- Fill appId and apiKey with your app
-- start Web Application to login your storage service account
+- Fill appId and apiKey in "appSettings" from your new app 
+- start Web Application and login your storage service account (e.g. Google Drive)
