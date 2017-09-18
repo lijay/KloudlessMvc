@@ -1,0 +1,26 @@
+﻿@using KloudlessMvc.Kloudless
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>FileId</th>
+            <th>FileName</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (FileSystem file in ViewBag.Files)
+        {
+        <tr>
+            <td>@file.id</td>
+            <td>@file.name</td>
+        </tr>
+        }
+        </tbody>
+    </table>
+
+</div>
